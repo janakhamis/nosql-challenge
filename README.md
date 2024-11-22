@@ -72,11 +72,11 @@ This project analyzes and manages data from UK food locations using MongoDB and 
 
 ## How to Run
 
-### 1. Install Dependencies ```bash
+### 1. Install Dependencies
       pip install pymongo pandas
 
 
-### 2.	Import the data:```bash
+### 2.	Import the data:
     mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json
 
 ### 3.	Open the notebooks:
